@@ -1,0 +1,737 @@
+/* ========================
+   -CSS Code Structure
+    1. Global CSS
+    2. Typography
+    3. Header Section
+    4. About Section
+    5. Service Section
+    6. Quotes Section
+    7. Price Section
+    8. Additional Info Section
+    9. Join Us Section
+    10. News Section
+    11. Additional Info Two Section
+    12. Download Now Section
+    13. Footer Section
+========================== */
+
+
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+/*1.0 Global Css Start*/
+body{
+    
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+}
+
+/*1.0 Global Css End*/
+
+/*2.0 Typography Section Start*/
+/*2.0 Typography Section End*/
+
+
+/*3.0 Header Section Start*/
+
+
+.navbar{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ed145b;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.navbar-light .navbar-nav .nav-link:focus{
+    color: #ed145b;
+}
+
+.navbar-light .navbar-toggler{
+	color: #fff;
+	border: 0px;
+	font-size: 25px;
+}
+
+.navbar-light .navbar-toggler:hover{
+	color: #ed145b;
+	transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.navbar-light .navbar-toggler:focus{
+	color: #ed145b;
+}
+
+.cover{
+    background: url(../img/Menu-bg.png) no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+    min-height: 40rem;
+    height: auto;
+    border-radius: 0;
+    width: 100%;
+    color: #fff;
+    padding-top: 1rem;
+}
+
+.cover .row{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.cover h2{
+    text-align: center;
+    margin: 100px auto 20px;
+    text-transform: uppercase;
+}
+
+.cover img{
+    display: block;
+    margin: 0 auto;
+}
+
+.cover p{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.cover .btn{
+    display: block;
+    margin: 20px auto;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.cover .btn:hover{
+    background-color: #ed145b;
+    color: #fff;
+    border: 1px solid #ed145b;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+/*3.0 Header Section End*/
+
+/*4.0 About Section Start*/
+
+.about{
+    background-color: #f4f4f4;
+    padding: 50px 0px;
+}
+
+.about h2{
+    padding: 45px 45px 10px;
+    color: #5a5a5a;
+    font-weight: 400;
+}
+
+
+.about p{
+    padding: 20px 45px 20px;
+    color: #5a5a5a;
+}
+
+.about a{
+    padding: 20px 45px 20px;
+    text-decoration: none;
+    color: #ed145b;
+}
+
+.about.fas{
+    background-color: transparent;
+}
+
+.about-bg{
+    background: url(../img/macbook-laptop.png)no-repeat;
+    background-size: cover;
+    padding: 40px 0px;
+    height: 30rem;
+}
+/*4.0 About Section End*/
+
+/*5.0 Service Section Start*/
+
+.service{
+    padding: 40px 0px;
+}
+
+.service h2{
+    text-align: center;
+    font-weight: 400;
+    color: #5a5a5a;
+    margin-bottom: 20px;
+}
+
+.service img{
+    display: block;
+    margin: 0 auto;
+}
+
+.service p{
+    text-align: center;
+    margin: 20px auto 40px;
+    color: #5a5a5a;
+}
+
+.service .col-lg-3 p{
+    color: #ed145b;
+    text-transform: uppercase;
+}
+/*5.0 Service Section End*/
+
+/*6.0 Quotes Section Start*/
+.quote{
+    background: url(../img/quote-bg.png) no-repeat;
+    background-size: cover;
+    padding: 40px 0px;
+}
+
+.quote img{
+    display: block;
+    margin: 0 auto;
+    width: 5%;
+}
+
+.quote p{
+    color: #fff;
+    text-align: center;
+    margin: 30px auto;
+}
+/*6.0 Quotes Section End*/
+
+/*7.0 Price Section Start*/
+
+.price{
+    padding: 60px 0px;
+    background-color: #f4f4f4;
+}
+
+.price h2{
+    text-align: center;
+    font-weight: 400;
+    color: #5a5a5a;
+    margin-bottom: 20px;
+}
+
+.price img{
+    display: block;
+    margin: 0px auto;
+}
+
+.price p{
+    text-align: center;
+    color: #5a5a5a;
+    margin:20px auto 30px;
+}
+
+.price .card{
+    width:14rem;
+    display: block;
+    margin: 20px auto;
+}
+
+.price .card-top{
+    background-color: #5a5a5a;
+}
+
+.price .card-title{
+    position: relative;
+    bottom: 20%;
+    border-radius: 25px;
+    padding: 10px 10px;
+    text-align: center;
+    background-color: #f4f4f4;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5a5a5a;
+}
+
+.price .card-text{
+    text-align: center;
+    color: #5a5a5a;
+    margin-bottom: 20px;
+}
+
+.price .card .btn{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ed145b;
+    border-radius: 25px;
+    color: #ed145b;
+}
+
+.price .card .btn:hover{
+    background-color: #ed145b;
+    color: #fff;
+    transition: 0.3s all ease-in;
+}
+/*7.0 Price Section End*/
+
+/*8.0 Additional Info Section Start*/
+
+.additional-info{
+    padding: 60px 0px;
+}
+
+.additional-info img{
+    display: block;
+    margin: 20px auto 40px;
+}
+/*8.0 Additional Info Section End*/
+
+/*9.0 Join Us Section Start*/
+
+.join-us{
+    background-color: #ed145b;
+    padding: 40px 0px;
+}
+
+.join-us h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 300;
+}
+
+.join-us .btn{
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.join-us .btn:hover{
+    background-color: #fff;
+    color: #ed145b;
+    transition: 0.3s all ease-in;
+    -webkit-transition: 0.3s all ease-in;
+    -moz-transition: 0.3s all ease-in;
+    -o-transition: 0.3s all ease-in;
+}
+/*9.0 Join Us Section End*/
+
+/*10.0 News Section Start*/
+
+.news{
+    padding: 60px 0px 40px;
+}
+
+.news h2{
+    text-align: center;
+    font-weight: 400;
+    color: #5a5a5a;
+    margin: 0px auto 30px;
+}
+
+.news img{
+    display: block;
+    margin: 0px auto;
+}
+
+.news p{
+    text-align: center;
+    color: #5a5a5a;
+    margin:30px auto;
+}
+
+.news .card{
+    width: 18rem;
+    background-color: #f4f4f4;
+    display: block;
+    margin: 20px auto;
+}
+
+.news .card-title{
+    text-align: center;
+    margin: 20px auto 0px;
+    color: #5a5a5a;
+}
+
+.news .card-text{
+    margin: 0 auto;
+    color: #5a5a5a;
+}
+
+.news a{
+    display: block;
+    margin: 40px auto 0px;
+    text-transform: uppercase;
+    color: #ed145b;
+}
+
+.img-1{
+    margin: 0px auto !important;
+}
+
+/*10.0 News Section End*/
+
+/*11.0 Additional Info Two Section Start*/
+
+.additional-info-two{
+    background: url(../img/add-info-2-bg.png) no-repeat;
+    background-size: cover;
+    padding: 60px 0px;
+}
+
+.additional-info-two h2{
+    text-align: center;
+    color: #fff;
+    margin: 20px auto;
+}
+
+.additional-info-two img{
+    display: block;
+    margin: 0 auto;
+}
+
+.additional-info-two p{
+    text-align: center;
+    color: #fff;
+    margin: 20px auto;
+}
+
+.additional-info-two .btn{
+    display: block;
+    margin: 40px auto;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.additional-info-two .btn:hover{
+    background-color: #ed145b;
+    color: #fff;
+    border: 1px solid #ed145b;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+/*11.0 Additional Info Two Section End*/
+
+/*12.0 Download Now Section Start*/
+
+.download-now{
+    background-color: #f4f4f4;
+    padding: 40px 0px;
+}
+
+.download-now h2{
+    color: #5a5a5a;
+    margin: 40px auto 20px;
+}
+
+.download-now p{
+    color: #5a5a5a;
+    margin: 20px auto;
+}
+
+.download-now .btn{
+    background-color: transparent;
+    text-transform: uppercase;
+    color: #ed145b;
+    border: 1px solid #ed145b;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 40px auto 0px;
+}
+
+.download-now .btn:hover{
+    background-color: #ed145b;
+    color: #fff;
+    border: 1px solid #ed145b;
+    transition: 0.3s all ease-in;
+    -webkit-transition: 0.3s all ease-in;
+    -moz-transition: 0.3s all ease-in;
+    -o-transition: 0.3s all ease-in;
+}
+/*12.0 Download Now Section End*/
+
+/*13.0 Footer Section Start*/
+
+footer{
+    background-color: #2b2b2b;
+    
+}
+
+footer h5{
+    color: #fff;
+    margin: 0 auto;
+    font-size: 10px;
+}
+
+footer .right{
+    text-align: right;
+}
+/*13.0 Footer Section End*/
+
+/*Media Query for mobile device from screen to 500px*/
+@media screen and (max-width:500px){
+    .navbar{
+        width: 100%;
+        text-align: right;
+    }
+    
+    .cover{
+        min-height: 30rem;
+    }
+    
+    .cover h2{
+        margin: 50px auto 20px;
+        font-size: 30px;
+    }
+    
+    .cover .btn{
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    
+    .about h2{
+        padding: 30px 45px 10px;
+        font-size: 25px;
+    }
+    
+    .about p{
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .about a{
+        margin: -20px auto 10px;
+        display: block;
+        text-align: center;
+    }
+	
+	.about img{
+		display: block;
+		margin: 0 auto;
+	}
+    
+    .about-bg{
+        height: 15rem;
+    }
+    
+    .service h2{
+        font-size: 30px;
+    }
+    
+    .service p{
+        font-size: 15px;
+    }
+	
+	
+    
+    .price h2{
+        font-size: 30px;
+        margin: 0px auto 20px;
+    }
+    
+    .price p{
+        margin: 20px auto 20px;
+        font-size: 15px;
+    }
+    
+    .join-us h1{
+        font-size: 35px;
+    }
+    
+    .news h2{
+        margin: 0px auto 20px;
+        font-size: 30px;
+    }
+    
+    .news p{
+        margin: 20px auto;
+        font-size: 15px;
+    }
+    
+    .news a{
+        margin: 20px auto 0px;
+    }
+    
+    .additional-info-two h2{
+        font-size: 30px;
+    }
+    
+    .additional-info-two p{
+        font-size: 15px;
+    }
+    
+    .additional-info-two .btn{
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    
+    .download-now h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .download-now img{
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .download-now p{
+        text-align: center;
+    }
+    
+    .download-now .btn{
+        margin: 20px auto 0px;
+        font-size: 15px;
+        display: block;
+    }
+    
+    footer h5{
+        font-size: 8px;
+        text-align: center;
+    }
+}
+
+/*Media Query for tablet device from 500px to 990px*/
+@media (min-width:500px) and (max-width:990px){
+    .cover{
+        min-height: 30rem;
+    }
+    
+    .cover h2{
+        margin: 70px auto 20px;
+    }
+    
+    .navbar{
+        text-align: right;
+    }
+    
+    .about h2{
+        text-align: center;
+    }
+    
+    .about img{
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .about p{
+        text-align: center;
+    }
+    
+    .about a{
+        display: block;
+        padding: 20px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .about-bg{
+        height: 28rem;
+    }
+    
+    .about p{
+        font-size: 15px;
+    }
+    
+    .service .col-lg-3{
+        width: 50%;
+    }
+    
+    .price .col-lg-3{
+        width: 50%;
+    }
+    
+    .price h2{
+        margin: 20px auto;
+    }
+    
+    .price p{
+        margin: 20px auto 20px;
+    }
+    
+    .additional-info .col-lg-4{
+        width: 50%;
+    }
+    
+    .join-us h1{
+        font-size: 30px;
+    }
+    
+    .join-us .btn{
+        width: 25%;
+    }
+    
+    .news .col-lg-4{
+        width: 50%;
+    }
+    
+    .news h2{
+        margin: 0px auto 20px;
+    }
+    
+    .news p{
+        margin: 20px auto;
+    }
+    
+    .additional-info-two p{
+        font-size: 15px;
+    }
+    
+    .download-now h2 {
+        text-align: center;
+    }
+    
+    .download-now img{
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .download-now p{
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .download-now .btn{
+        margin: 30px auto 0px;
+        display: block;
+    }
+    
+    footer .col-lg-6{
+        width: 50%;
+    }
+    
+    footer h5{
+        font-size: 8px;
+    }
+}
+
+
